@@ -46,20 +46,25 @@ public class Pessoa {
         return true;
     }
 
+    public String nivelPeso(){
+        switch (calculaIMC()){
+            case -1:
+            return "Abaixo do peso";
+
+            case 0 :
+            return "Peso saudável";
+
+            case 1:
+            return "Sobrepeso";
+
+            default:
+                return "deu erro";
+        }
+    }
+
     @Override
     public String toString() {
-        return "Pessoa{" +
-                "nome='" + nome + '\'' +
-                ", idade=" + idade +
-                ", id='" + id + '\'' +
-                ", peso=" + peso +
-                ", altura=" + altura +
-                '}';
+        return "Olá " + this.nome + ", seu IMC é: " + this.calculaIMC() + " e você está: " + this.nivelPeso();
     }
 
-    public LocalDateTime getData() {
-
-
-        return data;
-    }
 }

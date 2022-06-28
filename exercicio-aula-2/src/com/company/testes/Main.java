@@ -8,10 +8,9 @@ public class Main {
         Pessoa pessoa2 = new Pessoa("Pessoa2",24, "123");
         Pessoa pessoa3 = new Pessoa("Pessoa3", 30, "12345",70,1.63);
 
+        System.out.println(pessoa3.toString());
 
-        System.out.println(pessoa3.calculaIMC());
-        System.out.println(pessoa3.ehMaiorDeIdade());
 
-        System.out.println(pessoa3.getData());
+
     }
 }
