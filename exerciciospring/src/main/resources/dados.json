@@ -1,0 +1,17 @@
+[ {
+  "marca" : "Toyota",
+  "placa" : "ABC1234",
+  "modelo" : "Corolla"
+}, {
+  "marca" : "Ford",
+  "placa" : "DEF4567",
+  "modelo" : "Fiesta"
+}, {
+  "marca" : "Fiat",
+  "placa" : "DWF1234",
+  "modelo" : "Tempra"
+}, {
+  "marca" : "Fiat",
+  "placa" : "AAA1111",
+  "modelo" : "Tempra"
+} ]
