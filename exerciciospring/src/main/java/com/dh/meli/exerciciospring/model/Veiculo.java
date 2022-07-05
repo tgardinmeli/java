@@ -14,5 +14,6 @@ public class Veiculo {
     private String marca;
     private String placa;
     private String modelo;
+    private double preco;
 
 }

@@ -1,5 +1,6 @@
 package com.dh.meli.exerciciospring.repository;
 
+import com.dh.meli.exerciciospring.exception.NotFoundException;
 import com.dh.meli.exerciciospring.model.Veiculo;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -31,7 +32,7 @@ public class VeiculoRepo {
         }catch (Exception ex){
 
         }
-        return null;
+        throw new NotFoundException("Placa não encontrada!");
     }
 
     public List<Veiculo> getAll(){

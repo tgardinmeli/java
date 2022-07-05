@@ -1,0 +1,22 @@
+[
+  {
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "placa": "AAA1234",
+    "kmRodado": 115000,
+    "anoFabricacao": 2012,
+    "preco": 45000.0,
+    "quantidadePortas": 5,
+    "quantidadeProprietarios": 2,
+    "servicoList":[
+      {
+            "titulo":"trocar amortecedores",
+            "descricao": "Fazer a troca apenas dos amortecedores dianteiros"
+      },
+      {
+        "titulo":"trocar óleo",
+        "descricao": "Fazer a troca do óleo e filtros"
+      }
+    ]
+  }
+]

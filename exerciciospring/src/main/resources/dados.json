@@ -1,17 +1,56 @@
 [ {
   "marca" : "Toyota",
   "placa" : "ABC1234",
-  "modelo" : "Corolla"
+  "modelo" : "Corolla",
+  "preco" : 0.0
 }, {
   "marca" : "Ford",
   "placa" : "DEF4567",
-  "modelo" : "Fiesta"
+  "modelo" : "Fiesta",
+  "preco" : 0.0
 }, {
   "marca" : "Fiat",
   "placa" : "DWF1234",
-  "modelo" : "Tempra"
+  "modelo" : "Tempra",
+  "preco" : 0.0
 }, {
   "marca" : "Fiat",
   "placa" : "AAA1111",
-  "modelo" : "Tempra"
+  "modelo" : "Tempra",
+  "preco" : 0.0
+}, {
+  "marca" : "Honda",
+  "placa" : "AAA1111",
+  "modelo" : "Civic",
+  "preco" : 0.0
+}, {
+  "marca" : "Fiat",
+  "placa" : "AAA1234",
+  "modelo" : "Uno",
+  "preco" : 0.0
+}, {
+  "marca" : "Toyota",
+  "placa" : "AAA1234",
+  "modelo" : "Corolla",
+  "preco" : 0.0
+}, {
+  "marca" : "Toyota",
+  "placa" : "AAA1234",
+  "modelo" : "SW4",
+  "preco" : 0.0
+}, {
+  "marca" : "Toyota",
+  "placa" : "AAA1234",
+  "modelo" : "SW4",
+  "preco" : 0.0
+}, {
+  "marca" : "Toyota",
+  "placa" : "AAA1234",
+  "modelo" : "SW4",
+  "preco" : 0.0
+}, {
+  "marca" : "Toyota",
+  "placa" : "AAA1234",
+  "modelo" : "SW4",
+  "preco" : 47000.0
 } ]
