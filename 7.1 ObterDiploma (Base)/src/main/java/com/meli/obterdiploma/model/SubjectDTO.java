@@ -1,11 +1,15 @@
 package com.meli.obterdiploma.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.validation.constraints.*;
 
 @Getter @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class SubjectDTO {
     @NotBlank(message = "O nome do assunto não pode ficar vazio.")
     @Size(max = 30, message = "O comprimento do nome não pode exceder 30 caracteres.")

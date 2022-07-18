@@ -1,6 +1,8 @@
 package com.meli.obterdiploma.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.validation.annotation.Validated;
 
@@ -12,6 +14,8 @@ import javax.validation.constraints.Size;
 import java.util.List;
 
 @Getter @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class StudentDTO {
     @NotBlank(message = "O nome do aluno não pode ficar vazio ou nulo")
     @Size(min = 0, max = 50, message = "O nome do aluno não pode ultrapassar 5 caracteres")
