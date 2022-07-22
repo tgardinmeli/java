@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface IUserDhMeliRepo extends CrudRepository<UserDhMeli, Long> {
+    UserDhMeli findByEmail(String email);
 }
